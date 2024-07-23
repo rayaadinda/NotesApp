@@ -19,7 +19,7 @@ const NewNote = ({ handleAddNote }) => {
 
 	const handleSaveClick = () => {
 		if (noteText.trim().length > 0) {
-			handleAddNote(noteText)
+			handleAddNote(noteText, backgroundColor)
 			setNoteText("")
 			setBackgroundColor(getRandomColor())
 		}
@@ -31,7 +31,7 @@ const NewNote = ({ handleAddNote }) => {
 			style={{ backgroundColor }}
 		>
 			<textarea
-				className="border-none resize-none w-full h-40"
+				className="border-none resize-none w-full h-40 placeholder-white"
 				rows={4}
 				cols={10}
 				placeholder="Enter your note"

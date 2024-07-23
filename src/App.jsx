@@ -9,7 +9,7 @@ export default function App() {
 		{
 			id: nanoid(),
 			text: "Hello this is our first note - Raya",
-			Date: "13/04/2021",
+			Date: "22/07/2024",
 		},
 	])
 

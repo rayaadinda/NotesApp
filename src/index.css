@@ -22,3 +22,7 @@ textarea:focus {
 	background-color: #ededed;
 	cursor: pointer;
 }
+
+::placeholder {
+	color: white;
+}
