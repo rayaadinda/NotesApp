@@ -8,7 +8,7 @@ export default function App() {
 	const [notes, setNotes] = useState([
 		{
 			id: nanoid(),
-			text: "Hello this is our first note - Raya",
+			text: "Hello this isfirst note - Raya",
 			Date: "22/07/2024",
 		},
 	])
