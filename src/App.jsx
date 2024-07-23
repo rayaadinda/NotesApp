@@ -8,17 +8,7 @@ export default function App() {
 	const [notes, setNotes] = useState([
 		{
 			id: nanoid(),
-			text: "Hello this is our first note",
-			Date: "13/04/2021",
-		},
-		{
-			id: nanoid(),
-			text: "Hello this is our second note",
-			Date: "13/04/2021",
-		},
-		{
-			id: nanoid(),
-			text: "Hello this is our third note",
+			text: "Hello this is our first note - Raya",
 			Date: "13/04/2021",
 		},
 	])
